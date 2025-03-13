@@ -1,0 +1,37 @@
+[
+    {
+        "id" : "pacchetto",
+        "nome" : "Lupo solitario",
+        "prezzo" : "200 €",
+        "bonus" : "Camera d'albergo in un hotel di massimo 4 stelle con biglietti per il traghetto in omaggio !",
+        "completed" : true
+    },
+    {
+        "id" : "pacchetto",
+        "nome" : "Privacy",
+        "prezzo" : "450 €",
+        "bonus" : "Camera d'albergo 4 stelle prenotata.",
+        "completed": true
+    },
+    {
+        "id": "pacchetto",
+        "nome" : "Combricola",
+        "prezzo" : "420 €",
+        "bonus" : "Sconto da 500 € a 420 € ma senza servizi aggiuntivi.",
+        "completed" : true
+    },
+    {
+        "id": "pacchetto",
+        "nome" : "Buon viaggio di nozze",
+        "prezzo" : "350 €",
+        "bonus" : "Camera d'albergo da 5 stelle con servizio in camera incluso e la possibilità.",
+        "completed" : true
+    },
+    {
+        "id" : "pacchetto",
+        "nome" : "Relax",
+        "prezzo" : "500 €",
+        "bonus" : "Crociera alle Maldive con posti letto in spiaggia prenotati e servizi bar inclusi.",
+        "completed" : true
+    }
+]

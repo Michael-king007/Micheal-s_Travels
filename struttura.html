@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registrazione della struttura turistica :</title>
+        <link rel="stylesheet" href="css/css.css">
+        <script src="javascript/javascript.js"></script>
+    </head>
+    <body class="pagina">
+        <header>
+            <nav>
+                <div>
+                    <ul>
+                        <li> <button class="maicol" onclick="window.location.href='index.html'">Micheal's Travels</button> </li>
+                        <li> <button onclick="window.location.href='struttura.html'">Registra la tua struttura</button> </li>
+                        <li> <button onclick="window.location.href='acquisto.html'">Pacchetti viaggio</button> </li>
+                        <li> <button onclick="window.location.href='chi_siamo.html'">Chi siamo ?</button> </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li> <button onclick="window.location.href='registrazione.html'">Iscriviti</button> </li>
+                        <li> <button onclick="window.location.href='accedi.html'">Accedi</button> </li>
+                    </ul>
+                </div>
+            </nav>
+            <img class="logo" src="immagini/Screenshot 2024-12-12 173109.png">
+        </header>
+        <br />
+        <br />
+        <br />
+        <main>
+            <div class="form">
+                <div class="struttura">
+                    <div class="left">
+                        <h4> -> Informazioni Personali :</h4>
+                    
+                        <div>
+                            <label>Nome : </label>
+                            <input type="text" placeholder="Inserisci il nome" required>
+                        </div>
+
+                        <div>
+                            <label>Cognome : </label>
+                            <input type="text" placeholder="Inserisci il cognome" required>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <h4> -> Credenziali di accesso : </h4>
+
+                        <div>
+                            <label>Indirizzo email : </label>
+                            <input type="email" placeholder="Inserisci l'email" required>
+                        </div>
+
+                        <div>
+                            <label>Password</label>
+                            <input type="password" placeholder="********" required>
+                        </div>
+
+                        <div>
+                            <label>Conferma password</label>
+                            <input  type="password" placeholder="********" required>
+                        </div>
+                    </div>
+                <div class="struttura">
+                    <div class="left">
+                        <h4> -> Informazioni sulla struttura : </h4>
+                        <div>
+                            <label>Tipologia di struttura : </label>
+                            <select>
+                                <option>Hotel</option>
+                                <option>Resort</option>
+                                <option>Motel</option>
+                                <option>Ostelli</option>
+                                <option>B&B</option>
+                                <option>Guest House</option>
+                                <option>Rifugi di montagna</option>
+                                <option>Appartamento</option>
+                                <option>Casa</option>
+                                <option>Residence</option>
+                                <option>Case galleggianti</option>
+                                <option>Glamping</option>
+                                <option>Bungalow</option>
+                                <option>Chalet</option>
+                                <option>Lodge</option>
+                                <option>Capsule Hotel</option>
+                                <option>Riad</option>
+                                <option>Ryokan</option>
+                                <option>Grotte e abitazioni scavate nella roccia</option>
+                                <option>Castelli e Dimore storiche</option>
+                                <option>Trulli e Masserie</option>
+                                <option>Campeggi</option>
+                                <option>Agriturismi</option>
+                                <option>Ranch e Fattorie</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Nome : </label>
+                            <input type="text" required placeholder="Palazzo Bonaparte">
+                        </div>
+                        <div>
+                            <label>Indirizzo : </label>
+                            <input type="text" required placeholder="Via Rossi 18">
+                        </div>
+                        <div>
+                            <label>Numero di camere da letto : </label>
+                            <input type="number" required>
+                        </div>
+                        <div>
+                            <label>Servizi e comfort : </label>
+                            <input type="text" required placeholder="es. WI-FI grauito, parcheggio, cucina...">
+                        </div>
+                        <div>
+                            <label>Foto della struttura : </label>
+                            <input type="file" required>
+                        </div>
+                        <div>
+                            <label>Orari di check-in e check-out : </label>
+                            <input type="text" placeholder="dalle 7:00 alle 22:00...." required>
+                        </div>
+                        <div>
+                            <label>Possibilità di cancellazione ? </label>
+                            <input type="text" required placeholder="condizioni">
+                        </div>
+                        <div>
+                            <label>Regole della casa : </label>
+                            <input type="text" required placeholder="No animali domestici...">
+                        </div>
+                    </div>
+                    <div class="right">
+                        <h4> -> Informazioni di pagamento : </h4>
+
+                        <div>
+                            <label>Numero carta : </label>
+                            <input type="number" placeholder="1234567890123456" required>
+                        </div>
+
+                        <div>
+                            <label>Scadenza : </label>
+                            <input type="date" required>
+                        </div>
+
+                        <div>
+                            <label>CVV</label>
+                            <input type="number" placeholder="***" maxlength="3" required>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button type="submit" onclick="struttura()">Invio</button>
+                    <button type="reset">reset</button>
+                </div>
+            </div>
+        </main>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <footer>
+            <div class="index div1">
+                <img src="immagini/Screenshot 2024-12-12 173109.png">
+                <p>© 2025 E Profit. Tutti i diritti riservati.</p>
+                <h4>Micheal's Travels - Dove ogni viaggio diventa una storia da raccontare ! ✈</h2>
+            </div>
+        </footer>
+    </body>
+</html>
